@@ -1,0 +1,7 @@
+== onyx
+  protocol=Onyx(mode=unicast,F=6,H=1,spray=True) | fairness=0.07983 | median_last_arrival_us=5774 | median_OML_us=5774 | p_dws_le_1us=0.6092 | late_deliveries_pct=57.06 | mean_latency=5781 | p99_latency=1.14e+04 | executed=45920
+  protocol=Onyx(mode=tree,F=6,H=0,spray=False) | fairness=0.9989 | median_last_arrival_us=33.81 | median_OML_us=38.78 | p_dws_le_1us=93 | late_deliveries_pct=0.345 | mean_latency=86.64 | p99_latency=161.5 | executed=80000
+  protocol=Onyx(mode=tree,F=6,H=0,spray=True) | fairness=0.9976 | median_last_arrival_us=34.14 | median_OML_us=35.06 | p_dws_le_1us=82.6 | late_deliveries_pct=1.299 | mean_latency=74.86 | p99_latency=136 | executed=80000
+  protocol=Onyx(mode=tree,F=6,H=1,spray=True) | fairness=0.9995 | median_last_arrival_us=33.99 | median_OML_us=34.82 | p_dws_le_1us=91.9 | late_deliveries_pct=0.945 | mean_latency=74.55 | p99_latency=135.7 | executed=80000
+  protocol=Onyx(mode=tree,F=6,H=1,spray=True) | fairness=0.9996 | median_last_arrival_us=34.03 | median_OML_us=34.82 | p_dws_le_1us=93.88 | late_deliveries_pct=0.9425 | mean_latency=82.49 | p99_latency=154.5 | executed=39818
+   (30s)

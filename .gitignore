@@ -1,0 +1,18 @@
+# Commit only what is needed to reproduce the experiments:
+# experiments/ (code, results, figures, Makefile) plus the top-level Makefile.
+# Everything else (video, slides, notes, papers, course files) stays local.
+
+/*
+!/.gitignore
+!/Makefile
+!/experiments/
+
+# inside experiments/: rebuilt or downloaded by `make`
+/experiments/.venv/
+/experiments/cache/
+/experiments/dbo-simulation/
+/experiments/poc/cuttlefish/native_race
+
+__pycache__/
+*.pyc
+.DS_Store

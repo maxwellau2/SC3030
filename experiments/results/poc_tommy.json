@@ -1,0 +1,101 @@
+{
+ "online": [
+  {
+   "sigma_us": 0.1,
+   "p_thresh": 0.75,
+   "prob_correct": 1.0,
+   "prob_wrong": 0.0,
+   "prob_tie": 0.0,
+   "timestamp_correct": 1.0,
+   "timestamp_wrong": 0.0,
+   "median_emit_latency_us": 18.02046089898795,
+   "races": 135000
+  },
+  {
+   "sigma_us": 0.5,
+   "p_thresh": 0.75,
+   "prob_correct": 0.9763555555555555,
+   "prob_wrong": 0.0011925925925925925,
+   "prob_tie": 0.02245185185185185,
+   "timestamp_correct": 0.9944888888888889,
+   "timestamp_wrong": 0.005511111111111111,
+   "median_emit_latency_us": 21.21835786032443,
+   "races": 135000
+  },
+  {
+   "sigma_us": 1.0,
+   "p_thresh": 0.75,
+   "prob_correct": 0.880237037037037,
+   "prob_wrong": 0.014511111111111112,
+   "prob_tie": 0.10525185185185185,
+   "timestamp_correct": 0.9652592592592593,
+   "timestamp_wrong": 0.03474074074074074,
+   "median_emit_latency_us": 25.20619327636996,
+   "races": 135000
+  },
+  {
+   "sigma_us": 2.0,
+   "p_thresh": 0.75,
+   "prob_correct": 0.7169703703703704,
+   "prob_wrong": 0.0531037037037037,
+   "prob_tie": 0.22992592592592592,
+   "timestamp_correct": 0.8967703703703703,
+   "timestamp_wrong": 0.10322962962962963,
+   "median_emit_latency_us": 32.855992986214915,
+   "races": 135000
+  },
+  {
+   "sigma_us": 5.0,
+   "p_thresh": 0.75,
+   "prob_correct": 0.48184444444444446,
+   "prob_wrong": 0.22087407407407408,
+   "prob_tie": 0.2972814814814815,
+   "timestamp_correct": 0.748762962962963,
+   "timestamp_wrong": 0.25123703703703704,
+   "median_emit_latency_us": 54.52829344216025,
+   "races": 135000
+  }
+ ],
+ "threshold_sweep": [
+  {
+   "sigma_us": 1.0,
+   "p_thresh": 0.6,
+   "prob_correct": 0.9316222222222222,
+   "prob_wrong": 0.027851851851851853,
+   "prob_tie": 0.040525925925925924,
+   "timestamp_correct": 0.9652592592592593,
+   "timestamp_wrong": 0.03474074074074074,
+   "median_emit_latency_us": 25.20619327636996,
+   "races": 135000
+  },
+  {
+   "sigma_us": 1.0,
+   "p_thresh": 0.9,
+   "prob_correct": 0.7022074074074074,
+   "prob_wrong": 0.006296296296296296,
+   "prob_tie": 0.2914962962962963,
+   "timestamp_correct": 0.9652592592592593,
+   "timestamp_wrong": 0.03474074074074074,
+   "median_emit_latency_us": 25.20619327636996,
+   "races": 135000
+  },
+  {
+   "sigma_us": 1.0,
+   "p_thresh": 0.99,
+   "prob_correct": 0.2664,
+   "prob_wrong": 0.0013703703703703703,
+   "prob_tie": 0.7322296296296297,
+   "timestamp_correct": 0.9652592592592593,
+   "timestamp_wrong": 0.03474074074074074,
+   "median_emit_latency_us": 25.20619327636996,
+   "races": 135000
+  }
+ ],
+ "intransitivity": {
+  "P(A before B)": 0.5556,
+  "P(B before C)": 0.5556,
+  "P(C before A)": 0.5556,
+  "gaussian_trials": 20000,
+  "gaussian_cycles_found": 0
+ }
+}

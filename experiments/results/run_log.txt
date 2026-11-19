@@ -1,0 +1,62 @@
+15:42:13 === start E1
+15:42:14 E1 hold=15 sigma=0: fairness mean=0.9951
+15:42:15 E1 hold=15 sigma=0.01: fairness mean=0.9951
+15:42:16 E1 hold=15 sigma=0.03: fairness mean=0.9951
+15:42:17 E1 hold=15 sigma=0.1: fairness mean=0.9951
+15:42:17 E1 hold=15 sigma=0.3: fairness mean=0.9951
+15:42:18 E1 hold=15 sigma=1: fairness mean=0.9917
+15:42:19 E1 hold=15 sigma=3: fairness mean=0.9256
+15:42:19 E1 hold=15 sigma=10: fairness mean=0.7357
+15:42:20 E1 hold=30 sigma=0: fairness mean=0.9990
+15:42:21 E1 hold=30 sigma=0.01: fairness mean=0.9990
+15:42:22 E1 hold=30 sigma=0.03: fairness mean=0.9990
+15:42:22 E1 hold=30 sigma=0.1: fairness mean=0.9990
+15:42:23 E1 hold=30 sigma=0.3: fairness mean=0.9990
+15:42:24 E1 hold=30 sigma=1: fairness mean=0.9990
+15:42:24 E1 hold=30 sigma=3: fairness mean=0.9990
+15:42:25 E1 hold=30 sigma=10: fairness mean=0.9568
+15:42:27 E1 hold=50 sigma=0: fairness mean=0.9992
+15:42:33 E1 hold=50 sigma=0.01: fairness mean=0.9992
+15:42:38 E1 hold=50 sigma=0.03: fairness mean=0.9992
+15:42:45 E1 hold=50 sigma=0.1: fairness mean=0.9992
+15:42:51 E1 hold=50 sigma=0.3: fairness mean=0.9992
+15:42:57 E1 hold=50 sigma=1: fairness mean=0.9992
+15:43:04 E1 hold=50 sigma=3: fairness mean=0.9992
+15:43:09 E1 hold=50 sigma=10: fairness mean=0.9992
+15:43:09 saved e1_clock_error.csv (240 rows)
+15:43:09 saved e2_probabilistic.csv (80 rows)
+15:43:09 === E1 done in 56s
+15:43:09 === start E3
+15:43:10 {'extra_owd_us': 0, 'extra_rtt_us': 0, 'wait_others_mean_latency': 57.63061642994739, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.9983194444444443, 'direct_fairness_distant_pairs': 0.9758324444444444}
+15:43:11 {'extra_owd_us': 10, 'extra_rtt_us': 20, 'wait_others_mean_latency': 75.53224327557066, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.487375, 'direct_fairness_distant_pairs': 0.4446056666666667}
+15:43:12 {'extra_owd_us': 30, 'extra_rtt_us': 60, 'wait_others_mean_latency': 115.03082129223509, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.451, 'direct_fairness_distant_pairs': 0.4445157777777778}
+15:43:13 {'extra_owd_us': 100, 'extra_rtt_us': 200, 'wait_others_mean_latency': 254.26171497794203, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.44599999999999995, 'direct_fairness_distant_pairs': 0.4444806666666667}
+15:43:14 {'extra_owd_us': 300, 'extra_rtt_us': 600, 'wait_others_mean_latency': 654.0828261988437, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.4444444444444444, 'direct_fairness_distant_pairs': 0.4444444444444444}
+15:43:15 {'extra_owd_us': 1000, 'extra_rtt_us': 2000, 'wait_others_mean_latency': 2054.110504974707, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.4444444444444444, 'direct_fairness_distant_pairs': 0.4444444444444444}
+15:43:16 {'extra_owd_us': 3000, 'extra_rtt_us': 6000, 'wait_others_mean_latency': 6054.111707004879, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.4444444444444444, 'direct_fairness_distant_pairs': 0.4444444444444444}
+15:43:17 {'extra_owd_us': 10000, 'extra_rtt_us': 20000, 'wait_others_mean_latency': 20054.1106584912, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.4444444444444444, 'direct_fairness_distant_pairs': 0.4444444444444444}
+15:43:17 {'extra_owd_us': 30000, 'extra_rtt_us': 60000, 'wait_others_mean_latency': 60054.10922853738, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.4444444444444444, 'direct_fairness_distant_pairs': 0.4444444444444444}
+15:43:18 {'extra_owd_us': 100000, 'extra_rtt_us': 200000, 'wait_others_mean_latency': 200054.04089798816, 'wait_fairness_all': 1.0, 'excl_others_mean_latency': 57.11685874983893, 'excl_fairness_distant_pairs': 0.4444444444444444, 'direct_fairness_distant_pairs': 0.4444444444444444}
+15:43:18 saved e3_radius.csv (10 rows)
+15:43:18 === E3 done in 9s
+15:43:18 === start E4
+15:43:19 E4 gap=0.001us: DBO fairness=0.5180
+15:43:19 E4 gap=0.003us: DBO fairness=0.5556
+15:43:20 E4 gap=0.01us: DBO fairness=0.6813
+15:43:20 E4 gap=0.03us: DBO fairness=0.9208
+15:43:21 E4 gap=0.1us: DBO fairness=0.9973
+15:43:21 E4 gap=0.3us: DBO fairness=0.9978
+15:43:21 E4 gap=1.0us: DBO fairness=0.9989
+15:43:22 E4 gap=3.0us: DBO fairness=0.9998
+15:43:22 saved e4_compute_jitter.csv (40 rows)
+15:43:22 === E4 done in 4s
+15:43:22 === start E5
+15:43:29 E5 spread=0us done
+15:43:35 E5 spread=0.5us done
+15:43:42 E5 spread=1us done
+15:43:49 E5 spread=2us done
+15:43:57 E5 spread=5us done
+15:44:04 E5 spread=10us done
+15:44:11 E5 spread=20us done
+15:44:11 saved e5_placement.csv (280 rows)
+15:44:11 === E5 done in 49s
